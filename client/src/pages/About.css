@@ -1,0 +1,149 @@
+.about-page {
+  padding-top: 80px;
+}
+
+.about-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.about-hero .hero-subtitle {
+  font-size: 1.5rem;
+  opacity: 0.95;
+}
+
+.about-content {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.about-section {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 0.5rem;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #475569;
+  margin-bottom: 1.5rem;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.approach-card {
+  background: #f8fafc;
+  padding: 2rem;
+  border-radius: 16px;
+  border-left: 4px solid #2563eb;
+  transition: all 0.3s ease;
+}
+
+.approach-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.approach-card h3 {
+  font-size: 1.5rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.approach-card p {
+  color: #64748b;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.values-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.value-item {
+  padding: 2rem;
+  background: #f8fafc;
+  border-radius: 16px;
+  border-left: 4px solid #2563eb;
+}
+
+.value-item h3 {
+  font-size: 1.5rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.value-item p {
+  color: #64748b;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.mission-statement {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+}
+
+.mission-statement h2 {
+  color: white;
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+.mission-quote {
+  font-size: 1.3rem;
+  line-height: 1.9;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .about-section {
+    padding: 2rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
